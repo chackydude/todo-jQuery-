@@ -1,6 +1,6 @@
 // script
 $(function() {
-	var $taskList = $("#taskList");
+	var $tasksList = $("#tasksList");
 	var $taskInput = $("#taskInput");
 	var $notification = $("#notification");
 
@@ -15,7 +15,7 @@ $(function() {
 	$("#taskAdd").on("click", function() {
 		if (!$taskInput.val()) {return false;}
 
-		$tasksList.append("<li>" + $taskInput.val() + "button class='delete'>&#1006</button></li>");
+		$tasksList.append("<li>" + $taskInput.val() + "button class='delete'>&#10006</button></li>");
 
 		$taskInput.val("");
 
