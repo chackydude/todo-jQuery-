@@ -1,4 +1,3 @@
-// script
 $(function() {
 	var $tasksList = $("#tasksList");
 	var $taskInput = $("#taskInput");
