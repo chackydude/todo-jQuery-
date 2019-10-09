@@ -4,7 +4,7 @@ $(function() {
 	var $taskInput = $("#taskInput");
 	var $notification = $("#notification");
 
-	function displayNotification() {
+	var displayNotification = function() {
 		if (!$tasksList.children().length) {
 			$notification.fadeIn("fast");
 		} else {
