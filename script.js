@@ -9,7 +9,7 @@ $(function() {
 		} else {
 			$notification.css("display", "none")
 		}
-	};
+	}
 
 	$("#taskAdd").on("click", function() {
 		if (!$taskInput.val()) {return false;}
