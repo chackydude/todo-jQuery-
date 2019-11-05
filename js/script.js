@@ -14,7 +14,7 @@ $(function() {
 	$("#taskAdd").on("click", function() {
 		if (!$taskInput.val()) {return false;}
 
-		$tasksList.append("<li>" + $taskInput.val() + "button class='delete'>&#10006</button></li>");
+		$tasksList.append("<li>" + $taskInput.val() + "<button class='delete'>&#10006</button></li>");
 
 		$taskInput.val("");
 
@@ -27,7 +27,7 @@ $(function() {
 
 			setTimeout(function() {
 				$parent.remove();
-				displayNotififcation();
+				displayNotification();
 			}, 295)
 		})
 	})
